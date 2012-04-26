@@ -2,7 +2,7 @@ var http = require('http'),
     httpProxy = require('http-proxy'),
     fs = require('fs'),
     util = require('util'),
-    configFile = './config.json',
+    configFile = __dirname + '/config.json',
     options = {
       hostnameOnly: true,
       router: {}
@@ -17,6 +17,7 @@ function loadConfig() {
       try {
         options.router = JSON.parse(data || '{}');
       } catch (e) {
+        util.log(e);
         util.log('failed to parse config');
         options.router = {};
       }

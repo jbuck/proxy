@@ -1,4 +1,0 @@
-{ 
-  'myclient.example.com' : 'localhost:8000', 
-  'mysite.example.com'   : 'localhost:8001' 
-}
