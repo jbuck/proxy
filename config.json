@@ -1,4 +1,3 @@
-{ 
-  "pbs.butyr.org" : "localhost:2000" 
+{
+  "pbs.butyr.org": "localhost:2000"
 }
-
