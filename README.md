@@ -8,7 +8,7 @@ This server runs on port 80, and my other servers run on different ports on the 
 
 # butyr.org
 
-* `cp nodejs-proxy.conf /etc/init/`
-* `sudo start nodejs-proxy`
+* `cp proxy.conf /etc/init/`
+* `sudo start proxy`
 * Change proxy settings in config.json as you need. Even more useful if you make it group writable so multiple people can edit the file
 
