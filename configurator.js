@@ -31,7 +31,7 @@ if (validCommands.indexOf(argv[0]) == -1) {
 var command = argv.shift();
 
 if (command == "list") {
-  console.log(config);
+  console.log(JSON.stringify(config, null, 2));
   return;
 }
 
